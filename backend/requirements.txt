@@ -1,11 +1,14 @@
 fastapi
 uvicorn[standard]
 python-multipart
-# From your original scripts
-google-cloud-speech
-google-cloud-texttospeech
-librosa
+
+# AI Pipeline Libraries
+openai-whisper
+presidio-analyzer
+presidio-anonymizer
+transformers
+torch
+gTTS
 numpy
-spacy
-# For Pydantic v1 compatibility with some Google libraries if needed
-pydantic<2
+librosa
+ffmpeg-python
