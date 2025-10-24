@@ -1,0 +1,5 @@
+The system successfully transcribed the provided audio using the Whisper model and produced a medium confidence score (0.65). The original transcript correctly captured most of the spoken text, though there was a small recognition error where the word “speech” was transcribed as “speak.” This highlights a common limitation of speech-to-text models: minor phonetic inaccuracies, especially in shorter or context-free clips.
+
+The redacted transcript correctly replaced personal information (name) with <PERSON>, demonstrating effective privacy handling. Since the text was short, the summarization component returned “Text is too short to summarize”, which is an appropriate response for this input length.
+
+Overall, the application correctly integrated AI components — Speech-to-Text, PII Redaction, Confidence Scoring, and Text-to-Speech Output — in a single automated workflow, meeting the technical and ethical objectives of the assignment.
