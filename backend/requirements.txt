@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+python-multipart
+# From your original scripts
+google-cloud-speech
+google-cloud-texttospeech
+librosa
+numpy
+spacy
+# For Pydantic v1 compatibility with some Google libraries if needed
+pydantic<2
