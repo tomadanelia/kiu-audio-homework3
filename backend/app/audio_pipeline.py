@@ -87,4 +87,7 @@ def process_audio_file(
     results['summary_audio_filename'] = output_filename
     print("Step 5: Audio summary generated.")
 
-    return results
+    return {
+        **results,  # Unpack existing results dict
+        "pii_results": analyzer_results # Add the list of found PII entities
+    }
